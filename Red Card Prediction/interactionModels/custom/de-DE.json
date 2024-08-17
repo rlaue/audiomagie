@@ -1,0 +1,113 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "augenzahl",
+              "type": "augenzahl"
+            }
+          ],
+          "name": "AnweisungIntent",
+          "samples": [
+            "{augenzahl}",
+            "Ich habe die Zahl {augenzahl} erhalten",
+            "Ich habe die {augenzahl} geworfen",
+            "Ich habe eine {augenzahl} erwürfelt",
+            "Ich habe die Zahl {augenzahl} geworfen",
+            "Ich habe eine {augenzahl} erzielt",
+            "Der Würfel ist auf {augenzahl} gefallen",
+            "Eine {augenzahl} kam heraus",
+            "Der Würfel blieb bei {augenzahl} stehen",
+            "Der Würfel landete auf {augenzahl}",
+            "Es wurde eine {augenzahl} erzielt",
+            "Der Wurf ergab eine {augenzahl}",
+            "Der Würfel zeigt die Zahl {augenzahl}",
+            "Ich habe eine {augenzahl} gewürfelt",
+            "Der Wurf brachte eine {augenzahl}",
+            "Eine {augenzahl} ist gefallen",
+            "Es kam eine {augenzahl} heraus",
+            "Das Ergebnis ist eine {augenzahl}",
+            "Eine {augenzahl} ist das Ergebnis",
+            "Es ist eine {augenzahl}",
+            "Der Würfel zeigt eine {augenzahl}",
+            "Eine {augenzahl}",
+            "Eine {augenzahl} wurde gewürfelt",
+            "Ich habe eine {augenzahl} geworfen",
+            "Es ist eine {augenzahl} gefallen",
+            "Ich hab eine {augenzahl} gewürfelt"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "EndeIntent",
+          "samples": [
+            "Die rote Karte wird gefunden"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sechs"
+              }
+            },
+            {
+              "name": {
+                "value": "fünf"
+              }
+            },
+            {
+              "name": {
+                "value": "vier"
+              }
+            },
+            {
+              "name": {
+                "value": "drei"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "zwo"
+                ],
+                "value": "zwei"
+              }
+            },
+            {
+              "name": {
+                "value": "eins"
+              }
+            }
+          ],
+          "name": "augenzahl"
+        }
+      ],
+      "invocationName": "vorhersage trick"
+    }
+  }
+}

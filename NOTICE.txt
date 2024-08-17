@@ -1,0 +1,13 @@
+Die Skills wurden als Projektarbeit von Studenten der Westsächsischen Hochschule Zwickau erstellt.
+
+Dabei wirkten mit:
+Luke Heydel (Programmierung Compucard), Peter Pauli (Programmierung Red Card Prediction),
+Marwin Heckel, Robin Klinkert, Adil Duishenaliev, Aruuke Totoralieva & Prof. Dr. Ralf Laue
+
+
+
+The skills were developed as a project by students from the West Saxon University of Applied Sciences Zwickau.
+
+The following contributors were involved: ...
+Luke Heydel (programming of Compucard), Peter Pauli (programming of Red Card Prediction),
+Marwin Heckel, Robin Klinkert, Adil Duishenaliev, Aruuke Totoralieva & Prof. Dr. Ralf Laue
